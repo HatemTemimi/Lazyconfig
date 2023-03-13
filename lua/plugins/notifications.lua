@@ -19,14 +19,15 @@ return {
       max_width = function()
         return math.floor(vim.o.columns * 0.30)
       end,
+      level = 3,
+      top_down = false,
     },
     init = function()
       -- when noice is not enabled, install notify on VeryLazy
       local Util = require("lazyvim.util")
       if not Util.has("noice.nvim") then
-        Util.on_very_lazy(function()
-          vim.notify = require("notify")
-        end)
+        vim.notify = require("notify")
+        Util.on_very_lazy(function() end)
       end
     end,
   },
