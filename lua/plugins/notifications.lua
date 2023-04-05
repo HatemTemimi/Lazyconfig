@@ -19,7 +19,7 @@ return {
       max_width = function()
         return math.floor(vim.o.columns * 0.30)
       end,
-      level = 3,
+      level = 4,
       top_down = false,
     },
     init = function()
