@@ -41,7 +41,7 @@ You can change the theme by just typing:
 
 The whole config is written in lua script, You can extend the configuration by adding files to the plugins folder or editing existing configuration files.
 Backup previous configuration then Copy configuration files to: 
-```
+  ```
     $HOME/.config/nvim
 ```
 
@@ -61,9 +61,8 @@ Clone the repository locally
 
 ## Snapshots
 
-
 ## Important Credits
 
-Based on LazyVim(https://github.com/LazyVim/LazyVim).
+Based on [LazyVim](https://github.com/LazyVim/LazyVim).
 
-Kanagawa Theme(https://github.com/rebelot/kanagawa.nvim).
+[Kanagawa Theme](https://github.com/rebelot/kanagawa.nvim).
