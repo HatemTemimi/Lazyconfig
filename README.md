@@ -54,7 +54,7 @@ Backup your old configuration
      cp -r $HOME/.config/nvim/ $HOME/.config/nvim.bak/
  ```
 
-Clone the repository locally
+  Clone the repository locally
 ```bash
     git clone  git@github.com:HatemTemimi/highlife.nvim.git $HOME/config/nvim/ 
 ```
@@ -63,6 +63,4 @@ Clone the repository locally
 
 ## Important Credits
 
-Based on [LazyVim](https://github.com/LazyVim/LazyVim).
-
-[Kanagawa Theme](https://github.com/rebelot/kanagawa.nvim).
+Based around [LazyVim](https://github.com/LazyVim/LazyVim) and [Kanagawa Theme](https://github.com/rebelot/kanagawa.nvim).
