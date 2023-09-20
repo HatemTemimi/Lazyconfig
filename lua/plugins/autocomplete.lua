@@ -10,7 +10,6 @@ if true then
   }
 end
 --second config done manually
-
 return {
   {
     "hrsh7th/nvim-cmp",

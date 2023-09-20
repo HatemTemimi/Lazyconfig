@@ -1,7 +1,7 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = {
+      opts = {
       ensure_installed = {
         "bash",
         "help",
@@ -14,19 +14,20 @@ return {
         "python",
         "query",
         "regex",
-        "tsx",
         "typescript",
         "vim",
         "yaml",
         "tsx",
-        "typescript",
         "go",
         "graphql",
+        "php",
+        "css",
+        "prisma",
+          },
       },
+      highlight = {
+        enable = true,
+      },
+      additional_vim_regex_highlighting = false,
     },
-    highlight = {
-      enable = true,
-    },
-    additional_vim_regex_highlighting = false,
-  },
 }

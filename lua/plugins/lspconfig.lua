@@ -57,6 +57,7 @@ return {
       dockerls = {},
       tailwindcss = {},
       vuels = {},
+      sqlls={},
     },
     -- you can do any additional lsp server setup here
     -- return true if you don't want this server to be setup with lspconfig
@@ -72,14 +73,10 @@ return {
     },
   },
   ---@param opts PluginLspOpts
-  config = function(plugin, opts)
+    config = function(plugin, opts)
     -- setup autoformat
     require("lazyvim.plugins.lsp.format").autoformat = opts.autoformat
     -- setup formatting and keymaps
-    require("lazyvim.util").on_attach(function(client, buffer)
-      require("lazyvim.plugins.lsp.format").on_attach(client, buffer)
-      require("lazyvim.plugins.lsp.keymaps").on_attach(client, buffer)
-    end)
 
     -- diagnostics
     for name, icon in pairs(require("lazyvim.config").icons.diagnostics) do
