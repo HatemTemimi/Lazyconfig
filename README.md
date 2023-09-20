@@ -2,21 +2,20 @@
 ## The Highlife 🌊
 
 Sane developers who have a life, usually opt out of intensive configuration and want out of the box toys to play with.<br/>
-So this is a luxurious highlife fullstack developement configuration for Neovim that does exactly that.<br/>
-<strong>Note</strong>: This is my personal configuration based on other Neovim configurations, you can use it as a template and extend it, or just use it as it is.
+So this is a luxurious highlife fullstack developement configuration for Neovim that spares you all of that.<br/>
+<strong>Note:</strong> This is my personal configuration based on other Neovim configurations, you can use it as a template and extend it, or just use it as it is.
 
 <img src="./snapshots/snapshot2.png"  width="100%" height="100%">
 
 
 ## In The Box 🧃
-### Theme
+### Theme 
 This configuration will spin the Kanagawa theme by default, but also has Tokyonight installed and configured.<br/>
 
-
 <img src="./snapshots/snapshot3.jpg"  width="99%" height="99%">
-<img src="./snapshots/snapshot1.png"  width="100%" height="100%">:
+<img src="./snapshots/snapshot1.png"  width="100%" height="100%">
 
-You can change the theme by just typing:
+Y<strong>Hint:</strong>You can change the theme by just typing:
 ```bash
     :colorscheme <theme variation>
 ```
@@ -46,11 +45,10 @@ Backup previous configuration then Copy configuration files to:
     $HOME/.config/nvim
 ```
 
-
 ## ⚙ Setup
 ### Requirements: Git 🔑
 
-Backup your old configuration
+⚠️  Backup your old configuration ⚠️
 ```bash
      cp -r $HOME/.config/nvim/ $HOME/.config/nvim.bak/
  ```
