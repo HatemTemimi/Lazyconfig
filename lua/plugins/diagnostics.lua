@@ -4,6 +4,7 @@ return {
     opts = {
       use_diagnostic_signs = true,
       multiline= true,
-      auto_open = true
+      auto_open = true,
+      auto_close= true,
     },
 }
