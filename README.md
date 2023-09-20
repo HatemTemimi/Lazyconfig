@@ -1,14 +1,23 @@
 
-## The Highlife philosopĥy
-A luxurious highlife fullstack developement configuration for Neovim.
-Sane developers who have a life, usually opt out of intensive configuration and want out of the box toys to play with.
-Note: This is my personal configuration based on other neovim configurations, you can use it as a template and extend it, or just use it as it is.
+## The Highlife
+
+<img src="./snapshots/snapshot2.png"  width="80%" height="80%">
+
+Sane developers who have a life, usually opt out of intensive configuration and want out of the box toys to play with.<br/>
+So this is a luxurious highlife fullstack developement configuration for Neovim that does exactly that.<br/>
+<strong>Note</strong>: This is my personal configuration based on other Neovim configurations, you can use it as a template and extend it, or just use it as it is.
 
 ## In The Box
 ### Theme
-
+This configuration will spin the Kanagawa theme by default, but also has Tokyonight installed and configured.
 <img src="./snapshots/snapshot3.jpg"  width="80%" height="80%">
-<img src="./snapshots/snapshot2.png"  width="80%" height="80%">
+<img src="./snapshots/snapshot1.png"  width="82%" height="82%">:
+
+You can change the theme by just typing:
+```bash
+    :colorscheme <theme variation>
+```
+hint: you can just type :colorscheme and then press tab, and it will suggest the theme names for you.
 
 ### And some other stuff
 <ul>
@@ -45,7 +54,6 @@ Clone the repository locally
 ```
 
 ## Snapshots
-<img src="./snapshots/snapshot1.png"  width="80%" height="80%">:
 
 
 ## Important Credits
