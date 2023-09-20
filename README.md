@@ -15,12 +15,12 @@ This configuration will spin the Kanagawa theme by default, but also has Tokyoni
 <img src="./snapshots/snapshot3.jpg"  width="99%" height="99%">
 <img src="./snapshots/snapshot1.png"  width="100%" height="100%">
 
-Y<strong>Hint:</strong>You can change the theme by just typing:
+<strong>Hint:</strong>You can change the theme by just typing:
 ```bash
     :colorscheme <theme variation>
 ```
 
-<strong>hint</strong> you can just type :colorscheme and then press tab, and it will suggest the theme names for you.
+<strong>Another hint</strong> you can just type :colorscheme and then press tab, and it will suggest the theme names for you.
 
 ### And some other complicated stuff
 <ul>
