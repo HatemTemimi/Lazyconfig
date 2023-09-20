@@ -1,23 +1,26 @@
 
 ## The Highlife
 
-<img src="./snapshots/snapshot2.png"  width="80%" height="80%">
-
 Sane developers who have a life, usually opt out of intensive configuration and want out of the box toys to play with.<br/>
 So this is a luxurious highlife fullstack developement configuration for Neovim that does exactly that.<br/>
 <strong>Note</strong>: This is my personal configuration based on other Neovim configurations, you can use it as a template and extend it, or just use it as it is.
 
+<img src="./snapshots/snapshot2.png"  width="100%" height="100%">
+
+
 ## In The Box
 ### Theme
-This configuration will spin the Kanagawa theme by default, but also has Tokyonight installed and configured.
-<img src="./snapshots/snapshot3.jpg"  width="80%" height="80%">
-<img src="./snapshots/snapshot1.png"  width="82%" height="82%">:
+This configuration will spin the Kanagawa theme by default, but also has Tokyonight installed and configured.<br/>
+
+
+<img src="./snapshots/snapshot3.jpg"  width="100%" height="100%">
+<img src="./snapshots/snapshot1.png"  width="100%" height="100%">:
 
 You can change the theme by just typing:
 ```bash
     :colorscheme <theme variation>
 ```
-hint: you can just type :colorscheme and then press tab, and it will suggest the theme names for you.
+<strong>hint</strong>: you can just type :colorscheme and then press tab, and it will suggest the theme names for you.
 
 ### And some other stuff
 <ul>
@@ -37,7 +40,10 @@ hint: you can just type :colorscheme and then press tab, and it will suggest the
 </ul>
 
 The whole config is written in lua script, You can extend the configuration by adding files to the plugins folder or editing existing configuration files.
-Backup previous configuration then Copy configuration files to $HOME/.config/nvim
+Backup previous configuration then Copy configuration files to: 
+```
+    $HOME/.config/nvim
+```
 
 
 ## ⚙ Setup
