@@ -39,7 +39,7 @@ You can change the theme by just typing:
 <li>Fuzzy Search: Telescope</li>
 </ul>
 
-The whole config is written in lua script, You can extend the configuration by adding files to the plugins folder or editing existing configuration files.
+The whole config is written in lua script and you can extend the configuration by adding files to the plugins folder or editing existing configuration files.
 Backup previous configuration then Copy configuration files to: 
   ```
     $HOME/.config/nvim
