@@ -13,7 +13,7 @@ So this is a luxurious highlife fullstack developement configuration for Neovim 
 This configuration will spin the Kanagawa theme by default, but also has Tokyonight installed and configured.<br/>
 
 
-<img src="./snapshots/snapshot3.jpg"  width="95%" height="95%">
+<img src="./snapshots/snapshot3.jpg"  width="99%" height="99%">
 <img src="./snapshots/snapshot1.png"  width="100%" height="100%">:
 
 You can change the theme by just typing:
