@@ -52,11 +52,9 @@ return {
       gopls = {},
       bashls = {},
       yamlls = {},
-      html = {},
       cssls = {},
       dockerls = {},
       tailwindcss = {},
-      vuels = {},
       sqlls={},
     },
     -- you can do any additional lsp server setup here
