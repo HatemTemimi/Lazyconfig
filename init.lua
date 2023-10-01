@@ -1,2 +1,2 @@
 -- bootstrap highlife.nvim 
-require("config.highlife")
+require("config.lazy")

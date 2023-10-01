@@ -1,5 +1,5 @@
 --first config done through lazyvim
-if true then
+if false then
   return {
     {
       "hrsh7th/cmp-nvim-lsp",
