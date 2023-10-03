@@ -60,15 +60,6 @@ return {
     -- you can do any additional lsp server setup here
     -- return true if you don't want this server to be setup with lspconfig
     ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>
-    setup = {
-      -- example to setup with typescript.nvim
-      -- tsserver = function(_, opts)
-      --   require("typescript").setup({ server = opts })
-      --   return true
-      -- end,
-      -- Specify * to use this function as a fallback for any server
-      -- ["*"] = function(server, opts) end,
-    },
   },
   ---@param opts PluginLspOpts
     config = function(plugin, opts)
@@ -130,9 +121,4 @@ return {
     require("mason-lspconfig").setup({ ensure_installed = ensure_installed })
     require("mason-lspconfig").setup_handlers({ setup })
   end,
-
-  -- for typescript, LazyVim also includes extra specs to properly setup lspconfig,
-  -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
-  -- add more treesitter parsers
-  --{ import = "lazyvim.plugins.extras.lang.typescript" },
 }

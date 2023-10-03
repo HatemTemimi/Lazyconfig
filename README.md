@@ -1,9 +1,8 @@
-
-## The Highlife 🌊
+## Lazy Kanagawa 🌊
 
 Sane developers who have a life, usually opt out of intensive configuration and want out of the box toys to play with.<br/>
-So this is a luxurious highlife fullstack developement configuration for Neovim that spares you all of that.<br/>
-<strong>Note:</strong> This is my personal configuration based on other Neovim configurations, you can use it as a template and extend it, or just use it as it is.
+This is a fullstack developement configuration for Neovim that spares you all of that.<br/>
+<strong>Note:</strong> This is my personal configuration based on Lazyvim, you can use it as a template and extend it, or just use it as it is.
 
 <img src="./snapshots/snapshot2.png"  width="100%" height="100%">
 

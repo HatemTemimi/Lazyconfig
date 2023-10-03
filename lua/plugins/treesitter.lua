@@ -4,7 +4,6 @@ return {
       opts = {
       ensure_installed = {
         "bash",
-        "help",
         "html",
         "javascript",
         "json",
@@ -23,7 +22,7 @@ return {
         "php",
         "css",
         "prisma",
-          },
+        },
       },
       highlight = {
         enable = true,
