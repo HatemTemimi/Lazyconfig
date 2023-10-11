@@ -1,4 +1,5 @@
 return {
+  {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
@@ -8,4 +9,8 @@ return {
         "flake8",
       },
     },
+  },
+  {'williamboman/mason-lspconfig.nvim'},
+
 }
+
