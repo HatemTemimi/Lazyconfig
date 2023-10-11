@@ -12,7 +12,7 @@ return {
         -- add a keymap to browse plugin files
         -- stylua: ignore
         {
-          "<leader>ff",
+          "<leader><leader>",
           function() require("telescope.builtin").find_files() end,
           desc = "Find Plugin File",
         },
