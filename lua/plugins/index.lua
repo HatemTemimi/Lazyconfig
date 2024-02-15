@@ -48,11 +48,16 @@ return {
   {
     "folke/trouble.nvim",
     -- opts will be merged with the parent spec
-    opts = { use_diagnostic_signs = true },
+    opts =  {
+      use_diagnostic_signs = false,
+      auto_open = true, -- automatically open the list when you have diagnostics
+      auto_close = true,
+      position = "bottom"
+    },
   },
 
   -- disable trouble
-  { "folke/trouble.nvim", enabled = false },
+  { "folke/trouble.nvim", enabled = true },
 
   -- add symbols-outline
   {
