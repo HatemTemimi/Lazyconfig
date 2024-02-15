@@ -77,11 +77,11 @@ You can of course add your own commands.
 this file handles your remaps config
 ##### Current example on project
  ``` c
-# leader config
+//leader config
  vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-# allows you to copy and paste from outside
+//allows you to copy and paste from outside
 vim.keymap.set({ "n", "v" }, "<C-x>", [["+x]])
 vim.keymap.set({ "n", "v" }, "<C-y>", [["+y]])
 vim.keymap.set({ "n", "i" }, "<C-p>", [["+gP]])
